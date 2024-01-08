@@ -48,6 +48,7 @@ const portfolioTab = () => {
       let img = document.createElement("img");
       img.setAttribute("class","hacker");
       img.src = "https://raw.githubusercontent.com/AsmrProg-YT/Personal-Portfolios/master/Personal%20Portfolio%20%2301/images/header.png";
+      img.alt = "Programista"
       section.appendChild(img);
 
       h2.innerText = "Hi, I'am ";
